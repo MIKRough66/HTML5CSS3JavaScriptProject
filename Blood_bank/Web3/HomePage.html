@@ -1,0 +1,212 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Home</title>
+    <link href="CSS/homepageStyle.css" rel="stylesheet" />
+    <link href="CSS/w3.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="main">
+        <div id="header">
+            <div id="banner">
+                <img src="Images/header.jpg" />
+            </div>
+
+            <div id="linkSearch">
+                <div id="link">
+                    <ul>
+                        <li><a href="#">What We Do</a>
+                            <ul>
+                                <li><a href="Pages/Canp.html">Camp</a></li>
+                                <li><a href="Pages/AboutUs.html">About Us</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">DONOR</a>
+                            <ul>
+                                <li><a href="Pages/DonorFAQ.html">Donor FAQ</a></li>
+                                <li><a href="Pages/BloodTips.html">Blood Tips</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="HomePage.html">Home</a></li>
+                    </ul>
+                </div>
+                
+                <div id="searchdiv">
+                    <form action="">
+                        <input id="search" name="" type="text" placeholder="Search......" />
+                    </form>
+                </div>
+            </div>
+
+            <div id="slider">
+                <div style="width:100%; float:left;">
+                    <img src="Images/slider1.jpg" class="mySlides" style="width:100%; height:500px;" />
+                    <img src="Images/slider2.jpg" class="mySlides" style="width:100%; height:500px;" />
+                    <img src="Images/slider3.jpg" class="mySlides" style="width:100%; height:500px;" />
+                </div>
+
+                <script>
+                    var myIndex = 0;
+                    carousel();
+                    function carousel() {
+                        var i;
+                        var x = document.getElementsByClassName("mySlides");
+                        for (i = 0; i < x.length; i++) {
+                            x[i].style.display = "none";
+                        }
+                        myIndex++;
+                        if (myIndex > x.length) { myIndex = 1 }
+                        x[myIndex - 1].style.display = "block";
+                        setTimeout(carousel, 2000); // Change image every 2 seconds
+                    }
+                </script>
+            </div>
+        </div>
+
+        <div id="body">
+            <div class="column">
+                <h2></h2>
+                <p></p>
+            </div>
+
+            <div class="column2">
+                <h2 id="welcome">Welcome</h2>
+                <img id="column2pic1" src="Images/blood.png" />
+                <div id="p1">
+                    <p  style="font-family:cursive;">
+                        Blood is universally recognized as the most precious element that sustains life. It saves innumerable lives across the world in a variety of conditions. The need for blood is great - on any given day, approximately 39,000 units of Red Blood Cells are needed. More than 29 million units of blood components are transfused every year.
+                        Despite the increase in the number of donors, blood remains in short supply during emergencies, mainly attributed to the lack of information and accessibility. We positively believe this tool can overcome most of these challenges by effectively connecting the blood donors with the blood recipients
+                    </p>
+                </div>                
+            </div>
+
+            <div class="column3">
+                <h2>Features</h2>
+                <ul>
+                    <li><a href="#">Service boy's</a></li>
+                    <li><a href="#">Apheresis procedures facility available with Comtec Fresenius</a></li>
+                    <li><a href="#">Open 24 hours a day 365 days a year</a></li>
+                    <li><a href="#">No replacement donation</a></li>
+                    <li><a href="#">Strict Quality Assurance Protocols.</a></li>
+                    <li><a href="#">Apart from ALISA tests we also conduct NAT( Nucleic Acid Test) Tests.</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <viv id="afooter">
+            <div id="coockies" class="w3-panel w3-card-2">
+                <div id="coockipic" style="width:100%; height:100px;">
+                    <div id="pic1" style="float:left; width:20%; height:100px; padding-left:30px;">
+                        <img src="Images/2seconds.png" />
+                    </div>
+
+                    <div id="pic2" style="float:left; width:20%; height:100px; padding-left:30px;">
+                        <img src="Images/1in7people.png" />
+                    </div>
+
+
+                    <div id="pic3" style="float:left; width:20%; height:100px; padding-left:30px;">
+                        <img src="Images/bloodbag.png" />
+                    </div>
+
+                    <div id="pic4" style="float:left; width:20%; height:100px; padding-left:30px;">
+                        <img src="Images/3lives.png" />
+                    </div>
+
+                    <div id="pic5" style="float:left; width:20%; height:100px; padding-left:30px;">
+                        <img src="Images/cookies.png" />
+                    </div>
+                </div>
+                
+                <div id="coockiwriting" style="width:100%; height:165px;">
+                    <div style="height:165px;width:20%; float:left; text-align:justify;">
+                        <P style="height:165px;width:100%; padding:0px 7px; font-family:cursive;">Every 2 seconds, someone in the Bangladesh needs blood.Five minutes of your time + 350 ml. of your blood = One life saved.</P>
+                    </div>
+
+                    <div style="height:165px;width:20%; float:left; text-align:justify;">
+                        <P style="height:165px;width:100%; padding:0px 7px; font-family:cursive;">1 in 7 people entering the hospital will use blood.</P>
+                    </div>
+
+                    <div style="height:165px;width:20%; float:left; text-align:justify;">
+                        <P style="height:165px;width:100%; padding:0px 7px; font-family:cursive;">Blood cannot be artificially made. The only way to have enough blood to save lives is through your blood donations.</P>
+                    </div>
+
+                    <div style="height:165px;width:20%; float:left; text-align:justify;">
+                        <P style="height:165px;width:100%; padding:0px 7px; font-family:cursive;">Every pint of blood can be split into platelets, plasma, and red blood cells, which can save 3 lives.</P>
+                    </div>
+
+                    <div style="height:165px;width:20%; float:left; text-align:justify;">
+                        <P style="height:165px;width:100%; padding:0px 7px; font-family:cursive;">The whole blood donation process, from registering to cookies, takes less than an hour!</P>
+                    </div>
+                </div>                
+            </div>
+
+            <div id="followus" class="w3-panel w3-card-2">
+                <div id="divh3" style="height:50px; width:100px; float:left; padding:0px 0px;">
+                    <p style="font-weight:700; font-size:medium; text-align:center;">Follow Us</p>
+                </div>
+
+                <div style="height:50px; width:50px; float:left; padding:4px 10px;">
+                    <a href="#"><img style="height:40px; width:40px;" src="SocialIcon/facebook.png" /></a>
+                </div>
+
+                <div style="height:50px; width:50px; float:left; padding:4px 10px;">
+                    <a href="#"><img style="height:40px; width:40px;" src="SocialIcon/twiter.png" /></a>
+                </div>
+
+                <div style="height:50px; width:50px; float:left; padding:4px 10px;">
+                    <a href="#"><img style="height:40px; width:40px;" src="SocialIcon/Skype.png" /></a>
+                </div>
+
+                <div style="height:50px; width:50px; float:left; padding:4px 10px;">
+                    <a href="#"><img style="height:40px; width:40px;" src="SocialIcon/instagram.png" /></a>
+                </div>
+
+                <div style="height:50px; width:50px; float:left; padding:4px 10px;">
+                    <a href="#"><img style="height:40px; width:40px;" src="SocialIcon/messenger.png" /></a>
+                </div>
+
+                <div style="height:50px; width:50px; float:left; padding:4px 15px;">
+                    <button style="border-radius:30px;" onclick="document.getElementById('id01').style.display='block'" class="w3-button">Login</button>
+                </div>
+
+                <div id="id01" class="w3-modal">
+                    <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="max-width:600px">
+                        <div class="w3-center">
+                            <br>
+                            <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-xlarge w3-transparent w3-display-topright" title="Close Modal">×</span>
+                        </div>
+
+                        <form class="w3-container" action="/action_page.php">
+                            <div class="w3-section">
+                                <label><b>Username</b></label>
+                                <input class="w3-input w3-border w3-margin-bottom" type="text" placeholder="Enter Username" name="usrname" required>
+                                <label><b>Password</b></label>
+                                <input class="w3-input w3-border" type="text" placeholder="Enter Password" name="psw" required>
+                                <button class="w3-button w3-block w3-green w3-section w3-padding" type="submit">Login</button>
+                                <input class="w3-check w3-margin-top" type="checkbox" checked="checked"> Remember me
+                                <a href="Pages/SignUp.html" style="text-decoration:none; float:right; padding-top:20px;">Sign Up</a>
+                            </div>
+                        </form>
+
+                        <div class="w3-container w3-border-top w3-padding-16 w3-light-grey">
+                            <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button w3-red">Cancel</button>
+                            <span class="w3-right w3-padding w3-hide-small">Forgot <a href="#">password?</a></span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </viv>
+
+        <div id="footer">
+            <div id="foot1">
+                <!--<img src="Images/footer.jpg" />-->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
